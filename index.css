@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "BlockSmith";
+    src: url("./BlocksmithOutline.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LedBoard";
+    src: url("./led_board.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #ffffff;
+    text-align: center;
+    font-family: "BlockSmith";
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: auto;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.points-place {
+    color: #F94F6D;
+    font-family: "LedBoard";
+    font-size: 40px;
+    background-color: #080001;
+    padding: 15px 10px;
+    margin-block: 15px;
+}
+
+button {
+    font-size: 18px;
+    font-family: "LedBoard";
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px;
+}
+
+#new-game {
+    margin-block: 20px;
+    font-family: "BlockSmith";
+    font-size: 22px;
+}
