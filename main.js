@@ -4,39 +4,39 @@ let guestScorePlace = document.getElementById("scored-guest")
 let homeScore = 0
 let guestScore = 0
 
-function scored1Home() {
+document.getElementById("home-1").addEventListener("click", () => {
     homeScore += 1
     homeScorePlace.innerText = homeScore
-}
+})
 
-function scored2Home() {
+document.getElementById("home-2").addEventListener("click", () => {
     homeScore += 2
     homeScorePlace.innerText = homeScore
-}
+})
 
-function scored3Home() {
+document.getElementById("home-3").addEventListener("click", () => {
     homeScore += 3
     homeScorePlace.innerText = homeScore
-}
+})
 
-function scored1Guest() {
+document.getElementById("guest-1").addEventListener("click", () => {
     guestScore += 1
     guestScorePlace.innerText = guestScore
-}
+})
 
-function scored2Guest() {
+document.getElementById("guest-2").addEventListener("click", () => {
     guestScore += 2
     guestScorePlace.innerText = guestScore
-}
+})
 
-function scored3Guest() {
+document.getElementById("guest-3").addEventListener("click", () => {
     guestScore += 3
     guestScorePlace.innerText = guestScore
-}
+})
 
-function startNewGame() {
+document.getElementById("new-game").addEventListener("click", () => {
     homeScore = 0
     guestScore = 0
-    guestScorePlace.innerText = guestScore
     homeScorePlace.innerText = homeScore
-}
+    guestScorePlace.innerText = guestScore
+})
